@@ -1,6 +1,6 @@
 jQuery(
 	function(){
-		var divwidth = parseInt(jQuery('#main').css('width'));
+		var divwidth = parseInt(jQuery('#columnizer').css('width'));
 		jQuery('.columnize-two').columnize({width:divwidth/2});
 		jQuery('.columnize-three').columnize({width:divwidth/3});
 		jQuery('.columnize-four').columnize({width:divwidth/4});

@@ -25,57 +25,57 @@ add_action('wp_enqueue_scripts', 'columnizer_scripts_method');
 
 //[twocolumns]
 function columnizer_two_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-two">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-two">' . $content . '</div>';
 }
 add_shortcode( 'twocolumns', 'columnizer_two_shortcode' );
 //[threecolumns]
 function columnizer_three_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-three">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-three">' . $content . '</div>';
 }
 add_shortcode( 'threecolumns', 'columnizer_three_shortcode' );
 //[fourcolumns]
 function columnizer_four_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-four">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-four">' . $content . '</div>';
 }
 add_shortcode( 'fourcolumns', 'columnizer_four_shortcode' );
 //[fivecolumns]
 function columnizer_five_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-five">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-five">' . $content . '</div>';
 }
 add_shortcode( 'fivecolumns', 'columnizer_five_shortcode' );
 //[sixcolumns]
 function columnizer_six_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-six">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-six">' . $content . '</div>';
 }
 add_shortcode( 'sixcolumns', 'columnizer_six_shortcode' );
 //[sevencolumns]
 function columnizer_seven_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-seven">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-seven">' . $content . '</div>';
 }
 add_shortcode( 'sevencolumns', 'columnizer_seven_shortcode' );
 //[eightcolumns]
 function columnizer_eight_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-eight">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-eight">' . $content . '</div>';
 }
 add_shortcode( 'eightcolumns', 'columnizer_eight_shortcode' );
 //[ninecolumns]
 function columnizer_nine_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-nine">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-nine">' . $content . '</div>';
 }
 add_shortcode( 'ninecolumns', 'columnizer_nine_shortcode' );
 //[tencolumns]
 function columnizer_ten_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-ten">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-ten">' . $content . '</div>';
 }
 add_shortcode( 'tencolumns', 'columnizer_ten_shortcode' );
 //[elevencolumns]
 function columnizer_eleven_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-eleven">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-eleven">' . $content . '</div>';
 }
 add_shortcode( 'elevencolumns', 'columnizer_eleven_shortcode' );
 //[twelvecolumns]
 function columnizer_twelve_shortcode( $atts, $content = null ) {
-   return '<div class="columnizer columnize-twelve">' . $content . '</div>';
+   return '<div id="columnizer" class="columnize-twelve">' . $content . '</div>';
 }
 add_shortcode( 'twelvecolumns', 'columnizer_twelve_shortcode' );
 

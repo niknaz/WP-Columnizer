@@ -7,7 +7,7 @@ Author: Tristan Chambers tristan.chambers@gmail.com
 */
 
 // Use this for testing - comment out for release
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 
 function columnizer_scripts_method() {
         wp_enqueue_script('jquery');

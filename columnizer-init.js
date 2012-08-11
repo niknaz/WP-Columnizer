@@ -1,16 +1,57 @@
-jQuery(
-	function(){
-		var divwidth = parseInt(jQuery('#columnizer').css('width'));
-		jQuery('.columnize-two').columnize({width:divwidth/2});
-		jQuery('.columnize-three').columnize({width:divwidth/3});
-		jQuery('.columnize-four').columnize({width:divwidth/4});
-		jQuery('.columnize-five').columnize({width:divwidth/5});
-		jQuery('.columnize-six').columnize({width:divwidth/6});
-		jQuery('.columnize-seven').columnize({width:divwidth/7});
-		jQuery('.columnize-eight').columnize({width:divwidth/8});
-		jQuery('.columnize-nine').columnize({width:divwidth/9});
-		jQuery('.columnize-ten').columnize({width:divwidth/10});
-		jQuery('.columnize-eleven').columnize({width:divwidth/11});
-		jQuery('.columnize-twelve').columnize({width:divwidth/12});
-	}
-);
+		jQuery(function(){
+			jQuery('.columnize-two').columnize({
+				columns : 2,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-three').columnize({
+				columns : 3,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-four').columnize({
+				columns : 4,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-five').columnize({
+				columns : 5,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-six').columnize({
+				columns : 6,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-seven').columnize({
+				columns : 7,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-eight').columnize({
+				columns : 8,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-nine').columnize({
+				columns : 9,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-ten').columnize({
+				columns : 10,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-eleven').columnize({
+				columns : 11,
+				accuracy : 1,
+				buildOnce : true
+			})
+			jQuery('.columnize-twelve').columnize({
+				columns : 12,
+				accuracy : 1,
+				buildOnce : true
+			})
+		});
